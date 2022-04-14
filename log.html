@@ -1,0 +1,82 @@
+<html>
+    <head>
+            <title>Login</title> 
+            </head> 
+            <body> 
+                <fieldset> 
+            <legend style= "font-size: 30px;">Login</legend></body>
+        </style>
+        <SCRIPT type="text/javascript">
+            function validateRequiredFields(this_form)
+            {
+                var name=this_form.name.value;
+                var username=this_form.usrname.value;
+                var password=this_form.usrpassword.value;
+
+                if(name==null || name=="")
+                {
+                    alert("Please enter your name");
+                    this_form.name.focus();
+                    return false;
+                }
+                if(username==null || username=="")
+                {
+                    alert("Please enter your username");
+                    this_form.usrname.focus();
+                    return false;
+                }
+                if(password==null || password=="")
+                {
+                    alert("Please enter your password");
+                    this_form.usrpassword.focus();
+                    return false;
+                }
+                return true;
+            }
+        </SCRIPT>
+        
+        <BODY>
+        
+        <FORM action="" onsubmit="return validateRequiredFields(this)" method="Post">
+            Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name"/><span style="color: red;">*</span><br><br>
+            Username:&nbsp;&nbsp; <input type= "text" name="usrname"/><span style="color:red;">*</span><br><br>
+            Password:&nbsp; &nbsp;<input type= "password" name="usrpassword"/><span style="color:red;">*</span><br><br>
+            <INPUT type="submit" name="Login" value="Login" onclick="" style="background-color: dodgerblue ; cursor: pointer;">
+        </FORM>
+        </BODY>
+    </fieldset> 
+    <p>
+        <img src="login.jpg"; height="250px"; width ="250px"; style="padding-left: 14cm;">
+    </p>
+    <br>
+    <style type="text/css">
+        a { text-decoration: none;
+            text-transform: none; }
+        a:hover { text-decoration: underline;
+                    text-transform: uppercase; }
+        </style>
+        </head>
+        <body>
+            <p> For more enquire </p>
+        <p><a href="https://www.happyhomefurnishers.com/">https://www.happyhomefurnishers.com/</a></p>
+        </body>
+        </HTML>
+
+        <style type="text/css">
+            form{
+                
+                margin-top: 0.5cm;
+                color: darkslategray;
+            }
+            legend{
+                color:darkred;
+                background-color: olivedrab;
+            }
+            text{text-align: center;
+
+            }
+            fieldset{
+                background-color: salmon;
+            }
+        </style>
+</html>
