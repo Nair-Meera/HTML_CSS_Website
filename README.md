@@ -7,7 +7,8 @@ start.html is the main or stating file, others are linked with eachother.
 
 Its just a simple sample which encourage to create advanced level of HTML
 
-Screenshort.png file are sample screenshort of the website
+# Sample screenshort of the website:
+
 # Home Page
 ![image](https://user-images.githubusercontent.com/88304166/178149693-5cb8388b-8f8f-4e2e-a4bb-a7c8d8a043eb.png)
 
@@ -19,6 +20,8 @@ Screenshort.png file are sample screenshort of the website
 
 # Login Page
 ![image](https://user-images.githubusercontent.com/88304166/178149649-2f539422-a273-44e8-9c92-2b80f46a448b.png)
+
+
 
 *1.jpg
 ![image](https://user-images.githubusercontent.com/88304166/178020394-c4c2f480-4b49-4523-93f2-4a3a3cdd9568.png)
