@@ -6,7 +6,7 @@ The link provided in the files are just a random sample from internet choosen by
 
 start.html is the main or stating file, others are linked with eachother.
 
-Its just a simple sample which encourage to create advanced level of HTML
+Its just a simple one which gives a starting for making a website and encourage to create upto its advanced level of HTML
 
 # Sample screenshort of the website:
 
